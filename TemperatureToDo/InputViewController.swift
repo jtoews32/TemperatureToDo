@@ -21,14 +21,7 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
     var todo:Todo?
     
     lazy var data = NSMutableData()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Force the device in portrait mode when the view controller gets loaded
-        UIDevice.currentDevice().setValue(UIInterfaceOrientation.Portrait.rawValue, forKey: "orientation")
-    }
-    
+
     override func loadView() {
         super.loadView()
         self.navigationController?.navigationBarHidden = false
@@ -133,7 +126,6 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
         self.view.addSubview(buttonView)
     }
     
-    
     func temperature(){
         let location:String = self.locationTextField!.text!
         
@@ -202,7 +194,6 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
             let temperature = Int( self.todo!.temperature! )
             messageTextView?.text = "Successful!\n\n\(self.todo!.location!)\n\(temperature)\u{00B0}F\n\(self.todo!.description!)"
             saveButton?.hidden = false
-            
 
         } catch let error as NSError {
             
@@ -211,15 +202,5 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
             print("\(error)\(self.data)")
             return
         }
-        
-    }
-    
-    override func shouldAutorotate() -> Bool {
-        // Lock autorotate
-        return false
-    }
-    
-    override func preferredInterfaceOrientationForPresentation() -> UIInterfaceOrientation {
-        return UIInterfaceOrientation.Portrait
     }
 }

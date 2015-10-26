@@ -18,13 +18,6 @@ class TodosTableViewController: UIViewController, UITableViewDelegate, UITableVi
     
     var items: [Todo] = []
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Force the device in portrait mode when the view controller gets loaded
-        UIDevice.currentDevice().setValue(UIInterfaceOrientation.Portrait.rawValue, forKey: "orientation")
-    }
-    
     override func loadView() {
         super.loadView()
         self.navigationController?.navigationBarHidden = false
@@ -258,14 +251,5 @@ class TodosTableViewController: UIViewController, UITableViewDelegate, UITableVi
         self.items = DatabaseManager.get().allTodosByStatus(0)
         self.tableView!.reloadData()
         self.incompleteButton?.backgroundColor = UIColor.actionAlphaColor()
-    }
-    
-    override func shouldAutorotate() -> Bool {
-        // Lock autorotate
-        return false
-    }
-    
-    override func preferredInterfaceOrientationForPresentation() -> UIInterfaceOrientation {
-        return UIInterfaceOrientation.Portrait
     }
 }

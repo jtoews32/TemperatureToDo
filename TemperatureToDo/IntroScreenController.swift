@@ -8,15 +8,7 @@
 import Foundation
 import UIKit
 
-class IntroScreenController: UIViewController  {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Force the device in portrait mode when the view controller gets loaded
-        UIDevice.currentDevice().setValue(UIInterfaceOrientation.Portrait.rawValue, forKey: "orientation")
-    }
-    
+class IntroScreenController: UIViewController  {    
     override func loadView() {
         super.loadView()
         self.navigationController?.navigationBarHidden = true
@@ -76,19 +68,9 @@ class IntroScreenController: UIViewController  {
         */
     }
     
-    
     override func viewWillDisappear(animated: Bool)
     {
         super.viewWillDisappear(animated)
         self.navigationController?.navigationBarHidden = false
-    }
-    
-    override func shouldAutorotate() -> Bool {
-        // Lock autorotate
-        return false
-    }
-    
-    override func preferredInterfaceOrientationForPresentation() -> UIInterfaceOrientation {
-        return UIInterfaceOrientation.Portrait
     }
 }

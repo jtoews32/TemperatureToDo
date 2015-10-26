@@ -18,14 +18,7 @@ class MainMenuController : UIViewController {
     override func viewDidAppear(animated: Bool) {
         AppDelegate.getNavigationController().navigationBarHidden = true
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Force the device in portrait mode when the view controller gets loaded
-        UIDevice.currentDevice().setValue(UIInterfaceOrientation.Portrait.rawValue, forKey: "orientation")
-    }
-    
+
     override func loadView() {
         super.loadView()
         
@@ -69,7 +62,6 @@ class MainMenuController : UIViewController {
         buttonView.addSubview(addButton)
         buttonView.addSubview(todoButton)
         self.view.addSubview(buttonView)
-        
     }
     
     func add() {
@@ -80,16 +72,5 @@ class MainMenuController : UIViewController {
     func todos() {
         let controller = TodosTableViewController()
         AppDelegate.getNavigationController().pushViewController(controller, animated: true)
-    }
-    
-    
-    
-    override func shouldAutorotate() -> Bool {
-        // Lock autorotate
-        return false
-    }
-    
-    override func preferredInterfaceOrientationForPresentation() -> UIInterfaceOrientation {
-        return UIInterfaceOrientation.Portrait
     }
 }
