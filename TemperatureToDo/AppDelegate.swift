@@ -11,6 +11,7 @@ import UIKit
 
 
 func load_data(L: COpaquePointer) -> Int32 {
+    /*
     let jsonType:String! = String(UTF8String: lua_tolstring(L, 1, nil))
     let dictionary:NSDictionary! = LuaManager.get().createObject(2, L:L) as! NSDictionary
     switch(jsonType) {
@@ -26,6 +27,7 @@ func load_data(L: COpaquePointer) -> Int32 {
      //   let name:Int32 = 1
     default: break
     }
+     */
     return 1
 }
 
@@ -63,8 +65,8 @@ class NavigationManager {
     
     func getViewController(viewName:String? ) {
 
-        let controller: CollectionViewController = CollectionViewController()
-        pushView(controller, true,   nil)
+    //    let controller: CollectionViewController = CollectionViewController()
+    //    pushView(controller, true,   nil)
 
     }
 }
@@ -133,6 +135,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
     
         // let luaManager:LuaManager! = LuaManager.get()
+        /*
         LuaManager.get().registerFunction(load_data, name: "load_data")
         
         let filePath:String! = NSBundle.mainBundle().pathForResource("uiboard", ofType:"lua")
@@ -148,13 +151,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if(errResult != nil) {
             NSLog( errResult.debugDescription )
         }
+        */
         
         let introScreenController  = IntroScreenController()
 
         let navigationController: UINavigationController = UINavigationController(rootViewController: introScreenController)
  
-        
-      
         var attributes = [
             NSForegroundColorAttributeName: UIColor.inverseColor(),
             NSFontAttributeName: UIFont(name:  "AppleSDGothicNeo-Medium" , size: 12.0)!
@@ -165,12 +167,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.navigationBar.backgroundColor =  UIColor.blackColor()
         navigationController.navigationBar.barTintColor = UIColor.blackColor()
  
-        
-        
-        
-
-        
-        
         
         self.window!.makeKeyAndVisible()
         self.window!.rootViewController = navigationController

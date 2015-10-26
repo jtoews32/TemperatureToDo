@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14542F161BDDF9F1005DBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F151BDDF9F1005DBB07 /* AppDelegate.swift */; };
-		14542F181BDDF9F1005DBB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F171BDDF9F1005DBB07 /* ViewController.swift */; };
-		14542F1B1BDDF9F1005DBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14542F191BDDF9F1005DBB07 /* Main.storyboard */; };
 		14542F1D1BDDF9F1005DBB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14542F1C1BDDF9F1005DBB07 /* Assets.xcassets */; };
-		14542F201BDDF9F1005DBB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14542F1E1BDDF9F1005DBB07 /* LaunchScreen.storyboard */; };
 		14542F2B1BDDF9F1005DBB07 /* TemperatureToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F2A1BDDF9F1005DBB07 /* TemperatureToDoTests.swift */; };
 		14542F361BDDF9F1005DBB07 /* TemperatureToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F351BDDF9F1005DBB07 /* TemperatureToDoUITests.swift */; };
+		14542F461BDDFC20005DBB07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14542F451BDDFC20005DBB07 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		14542F4F1BDDFCDB005DBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F471BDDFCDB005DBB07 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		14542F501BDDFCDB005DBB07 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F481BDDFCDB005DBB07 /* DatabaseManager.swift */; settings = {ASSET_TAGS = (); }; };
+		14542F511BDDFCDB005DBB07 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F491BDDFCDB005DBB07 /* InputViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		14542F521BDDFCDB005DBB07 /* IntroScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */; settings = {ASSET_TAGS = (); }; };
+		14542F531BDDFCDB005DBB07 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4B1BDDFCDB005DBB07 /* temp.png */; settings = {ASSET_TAGS = (); }; };
+		14542F541BDDFCDB005DBB07 /* TodosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		14542F551BDDFCDB005DBB07 /* uiboard.lua in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4D1BDDFCDB005DBB07 /* uiboard.lua */; settings = {ASSET_TAGS = (); }; };
+		14542F561BDDFCDB005DBB07 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4E1BDDFCDB005DBB07 /* up.png */; settings = {ASSET_TAGS = (); }; };
+		14542F581BDDFD84005DBB07 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F571BDDFD84005DBB07 /* MainMenuController.swift */; settings = {ASSET_TAGS = (); }; };
+		6D0809DED76A2C42521DA7B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C02AA3D24A7E2255A869A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8D09FE239D94D01352A9B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		118C3DC40BA90326AA0B92D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		14542F121BDDF9F1005DBB07 /* TemperatureToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14542F151BDDF9F1005DBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14542F171BDDF9F1005DBB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		14542F1A1BDDF9F1005DBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14542F1C1BDDF9F1005DBB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14542F1F1BDDF9F1005DBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14542F211BDDF9F1005DBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14542F261BDDF9F1005DBB07 /* TemperatureToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14542F2A1BDDF9F1005DBB07 /* TemperatureToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureToDoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +52,18 @@
 		14542F311BDDF9F1005DBB07 /* TemperatureToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14542F351BDDF9F1005DBB07 /* TemperatureToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureToDoUITests.swift; sourceTree = "<group>"; };
 		14542F371BDDF9F1005DBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14542F441BDDFB61005DBB07 /* TemperatureToDo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemperatureToDo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		14542F451BDDFC20005DBB07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14542F471BDDFCDB005DBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14542F481BDDFCDB005DBB07 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		14542F491BDDFCDB005DBB07 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenController.swift; sourceTree = "<group>"; };
+		14542F4B1BDDFCDB005DBB07 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+		14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosTableViewController.swift; sourceTree = "<group>"; };
+		14542F4D1BDDFCDB005DBB07 /* uiboard.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiboard.lua; sourceTree = "<group>"; };
+		14542F4E1BDDFCDB005DBB07 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		14542F571BDDFD84005DBB07 /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		DA2C02AA3D24A7E2255A869A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0809DED76A2C42521DA7B4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D7BED6F72EF8048666C246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C02AA3D24A7E2255A869A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		14542F091BDDF9F1005DBB07 = {
 			isa = PBXGroup;
 			children = (
+				14542F441BDDFB61005DBB07 /* TemperatureToDo-Bridging-Header.h */,
+				14542F451BDDFC20005DBB07 /* Default-568h@2x.png */,
 				14542F141BDDF9F1005DBB07 /* TemperatureToDo */,
 				14542F291BDDF9F1005DBB07 /* TemperatureToDoTests */,
 				14542F341BDDF9F1005DBB07 /* TemperatureToDoUITests */,
 				14542F131BDDF9F1005DBB07 /* Products */,
+				A2EA7044C0071F86BE2CA88D /* Pods */,
+				01D7BED6F72EF8048666C246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +127,16 @@
 		14542F141BDDF9F1005DBB07 /* TemperatureToDo */ = {
 			isa = PBXGroup;
 			children = (
-				14542F151BDDF9F1005DBB07 /* AppDelegate.swift */,
-				14542F171BDDF9F1005DBB07 /* ViewController.swift */,
-				14542F191BDDF9F1005DBB07 /* Main.storyboard */,
+				14542F571BDDFD84005DBB07 /* MainMenuController.swift */,
+				14542F471BDDFCDB005DBB07 /* AppDelegate.swift */,
+				14542F481BDDFCDB005DBB07 /* DatabaseManager.swift */,
+				14542F491BDDFCDB005DBB07 /* InputViewController.swift */,
+				14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */,
+				14542F4B1BDDFCDB005DBB07 /* temp.png */,
+				14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */,
+				14542F4D1BDDFCDB005DBB07 /* uiboard.lua */,
+				14542F4E1BDDFCDB005DBB07 /* up.png */,
 				14542F1C1BDDF9F1005DBB07 /* Assets.xcassets */,
-				14542F1E1BDDF9F1005DBB07 /* LaunchScreen.storyboard */,
 				14542F211BDDF9F1005DBB07 /* Info.plist */,
 			);
 			path = TemperatureToDo;
@@ -125,6 +160,15 @@
 			path = TemperatureToDoUITests;
 			sourceTree = "<group>";
 		};
+		A2EA7044C0071F86BE2CA88D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8D09FE239D94D01352A9B8 /* Pods.debug.xcconfig */,
+				118C3DC40BA90326AA0B92D3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14542F3A1BDDF9F1005DBB07 /* Build configuration list for PBXNativeTarget "TemperatureToDo" */;
 			buildPhases = (
+				C661DCEBB061B78E6F2628BD /* Check Pods Manifest.lock */,
 				14542F0E1BDDF9F1005DBB07 /* Sources */,
 				14542F0F1BDDF9F1005DBB07 /* Frameworks */,
 				14542F101BDDF9F1005DBB07 /* Resources */,
+				8A59C7974D67930A0AF07DFC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,9 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14542F201BDDF9F1005DBB07 /* LaunchScreen.storyboard in Resources */,
+				14542F561BDDFCDB005DBB07 /* up.png in Resources */,
+				14542F531BDDFCDB005DBB07 /* temp.png in Resources */,
+				14542F461BDDFC20005DBB07 /* Default-568h@2x.png in Resources */,
+				14542F551BDDFCDB005DBB07 /* uiboard.lua in Resources */,
 				14542F1D1BDDF9F1005DBB07 /* Assets.xcassets in Resources */,
-				14542F1B1BDDF9F1005DBB07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +298,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A59C7974D67930A0AF07DFC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C661DCEBB061B78E6F2628BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14542F0E1BDDF9F1005DBB07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14542F181BDDF9F1005DBB07 /* ViewController.swift in Sources */,
-				14542F161BDDF9F1005DBB07 /* AppDelegate.swift in Sources */,
+				14542F501BDDFCDB005DBB07 /* DatabaseManager.swift in Sources */,
+				14542F581BDDFD84005DBB07 /* MainMenuController.swift in Sources */,
+				14542F511BDDFCDB005DBB07 /* InputViewController.swift in Sources */,
+				14542F4F1BDDFCDB005DBB07 /* AppDelegate.swift in Sources */,
+				14542F541BDDFCDB005DBB07 /* TodosTableViewController.swift in Sources */,
+				14542F521BDDFCDB005DBB07 /* IntroScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,25 +375,6 @@
 			targetProxy = 14542F321BDDF9F1005DBB07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		14542F191BDDF9F1005DBB07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14542F1A1BDDF9F1005DBB07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14542F1E1BDDF9F1005DBB07 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14542F1F1BDDF9F1005DBB07 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		14542F381BDDF9F1005DBB07 /* Debug */ = {
@@ -394,23 +460,27 @@
 		};
 		14542F3B1BDDF9F1005DBB07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8D09FE239D94D01352A9B8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TemperatureToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = objct.TemperatureToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TemperatureToDo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		14542F3C1BDDF9F1005DBB07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118C3DC40BA90326AA0B92D3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TemperatureToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = objct.TemperatureToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TemperatureToDo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -481,6 +551,7 @@
 				14542F3C1BDDF9F1005DBB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14542F3D1BDDF9F1005DBB07 /* Build configuration list for PBXNativeTarget "TemperatureToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +560,7 @@
 				14542F3F1BDDF9F1005DBB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14542F401BDDF9F1005DBB07 /* Build configuration list for PBXNativeTarget "TemperatureToDoUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +569,7 @@
 				14542F421BDDF9F1005DBB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
