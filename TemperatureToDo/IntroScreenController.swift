@@ -52,7 +52,6 @@ class IntroScreenController: UIViewController  {
         buttonView.addSubview(startButton)
         self.view.addSubview(buttonView)
         self.view.addSubview(pictureView)
-        
     }
     
     func pressed() {

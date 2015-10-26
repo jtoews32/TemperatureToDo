@@ -56,8 +56,6 @@ class TodosTableViewController: UIViewController, UITableViewDelegate, UITableVi
      //   spaceView.backgroundColor = UIColor.clearColor()
      //   spaceView.layer.cornerRadius = 2
      //   spaceView.layer.masksToBounds = true
-        
-       
         self.allButton  = UIButton()
         self.allButton!.frame = CGRectMake(10, 10, 95, 25)
         self.allButton!.backgroundColor = UIColor.actionColor()
@@ -102,7 +100,6 @@ class TodosTableViewController: UIViewController, UITableViewDelegate, UITableVi
         horizontalScrollView.addSubview(completedButton!)
         horizontalScrollView.addSubview(incompleteButton!)
       //  horizontalScrollView.delegate = self
-        
         
         let contentFrame = CGRectMake(0, 150, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height-150)
         let contentView = UIView(frame: contentFrame)
