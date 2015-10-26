@@ -8,8 +8,6 @@
 import Foundation
 import UIKit
 
-
-
 func load_data(L: COpaquePointer) -> Int32 {
     /*
     let jsonType:String! = String(UTF8String: lua_tolstring(L, 1, nil))
@@ -29,7 +27,6 @@ func load_data(L: COpaquePointer) -> Int32 {
     return 1
 }
 
-     
 class NavigationManager {
     static let instance = NavigationManager()
     class func get() -> (NavigationManager) {
@@ -40,36 +37,20 @@ class NavigationManager {
     }
     
     func pushView(viewController: UIViewController, _ animated: Bool, _ screen:String?) {
-        
         AppDelegate.getNavigationController().pushViewController(viewController, animated: animated)
-
-
     }
     
     func popToController(viewController: UIViewController, _ animated: Bool  ) {
-        
-
         let viewControllers:[UIViewController] = [viewController]
-        
         AppDelegate.getNavigationController().setViewControllers(viewControllers, animated: animated)
-        
-
     }
 
     func popView(animated: Bool ) {
 
         AppDelegate.getNavigationController().popViewControllerAnimated(animated)
     }
-    
-    func getViewController(viewName:String? ) {
-
-    //    let controller: CollectionViewController = CollectionViewController()
-    //    pushView(controller, true,   nil)
-
-    }
 }
-
-
+     
 extension UIColor {
     
     class func actionAlphaColor() -> UIColor {
