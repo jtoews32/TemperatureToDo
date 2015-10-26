@@ -72,4 +72,9 @@ class MainMenuController : UIViewController {
         let controller = TodosTableViewController()
         AppDelegate.getNavigationController().pushViewController(controller, animated: true)
     }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    
 }

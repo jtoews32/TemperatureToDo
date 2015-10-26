@@ -251,4 +251,8 @@ class TodosTableViewController: UIViewController, UITableViewDelegate, UITableVi
         self.tableView!.reloadData()
         self.incompleteButton?.backgroundColor = UIColor.actionAlphaColor()
     }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
 }

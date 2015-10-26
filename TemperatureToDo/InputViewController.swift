@@ -205,4 +205,8 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
         }
         
     }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
 }

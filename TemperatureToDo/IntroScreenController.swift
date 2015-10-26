@@ -74,4 +74,8 @@ class IntroScreenController: UIViewController  {
         super.viewWillDisappear(animated)
         self.navigationController?.navigationBarHidden = false
     }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
 }
