@@ -31,7 +31,6 @@ class IntroScreenController: UIViewController  {
         let buttonViewFrame: CGRect = CGRectMake(0, 450, UIScreen.mainScreen().bounds.width, 70)
         let buttonView = UIView(frame: buttonViewFrame)
         
-        
         let startButton = UIButton()
         
         startButton.titleLabel!.font = UIFont(name:  "AppleSDGothicNeo-Medium" , size: 18.0)
@@ -46,7 +45,6 @@ class IntroScreenController: UIViewController  {
         let imageFrame: CGRect = CGRectMake(0, 130, UIScreen.mainScreen().bounds.width, 300)
         
         let pictureView = UIView(frame: imageFrame)
-       // pictureView.backgroundColor = UIColor.whiteColor()
         pictureView.autoresizingMask = UIViewAutoresizing.FlexibleWidth
         pictureView.addSubview(imageView1)
         
@@ -58,25 +56,16 @@ class IntroScreenController: UIViewController  {
     }
     
     func pressed() {
-        
         let controller = MainMenuController()
-       //  AppDelegate.getNavigationController().pushViewController(controller, animated: true)
-        
         NavigationManager.get().popToController(controller, true )
-       // NavigationManager.popViewToViewController(controller, true,NavigationState.Intro, nil)
-        // pushView(controller, true, NavigationState.Intro,  nil)
-        
-        
-        // NavigationManager.get().getViewController("SignIn", NavigationState.Intro)
-        
-        
+
         /*
         let alert = UIAlertView()
         alert.title = "Alert"
         alert.message = "Here's a message"
         alert.addButtonWithTitle("Understod")
         alert.show()
-*/
+        */
     }
     
     

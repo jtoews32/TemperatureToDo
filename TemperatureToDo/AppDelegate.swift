@@ -21,8 +21,6 @@ func load_data(L: COpaquePointer) -> Int32 {
         AppDelegate.drinksDictionary = dictionary
         
         let list:AnyObject = dictionary.objectForKey("Drinks")!
-        
-        
       //  let list:AnyObject = dictionary.objectForKey("Drinks")!
      //   let name:Int32 = 1
     default: break
@@ -128,13 +126,14 @@ extension UIColor {
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    /*
     static var mealsDictionary: NSDictionary?
     static var drinksDictionary: NSDictionary?
-
+     */
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
-    
-        // let luaManager:LuaManager! = LuaManager.get()
+
         /*
         LuaManager.get().registerFunction(load_data, name: "load_data")
         
