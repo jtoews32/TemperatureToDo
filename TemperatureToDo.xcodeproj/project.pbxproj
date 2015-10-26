@@ -17,7 +17,6 @@
 		14542F521BDDFCDB005DBB07 /* IntroScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */; settings = {ASSET_TAGS = (); }; };
 		14542F531BDDFCDB005DBB07 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4B1BDDFCDB005DBB07 /* temp.png */; settings = {ASSET_TAGS = (); }; };
 		14542F541BDDFCDB005DBB07 /* TodosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		14542F551BDDFCDB005DBB07 /* uiboard.lua in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4D1BDDFCDB005DBB07 /* uiboard.lua */; settings = {ASSET_TAGS = (); }; };
 		14542F561BDDFCDB005DBB07 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 14542F4E1BDDFCDB005DBB07 /* up.png */; settings = {ASSET_TAGS = (); }; };
 		14542F581BDDFD84005DBB07 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14542F571BDDFD84005DBB07 /* MainMenuController.swift */; settings = {ASSET_TAGS = (); }; };
 		6D0809DED76A2C42521DA7B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C02AA3D24A7E2255A869A /* libPods.a */; };
@@ -60,7 +59,6 @@
 		14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenController.swift; sourceTree = "<group>"; };
 		14542F4B1BDDFCDB005DBB07 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
 		14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosTableViewController.swift; sourceTree = "<group>"; };
-		14542F4D1BDDFCDB005DBB07 /* uiboard.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiboard.lua; sourceTree = "<group>"; };
 		14542F4E1BDDFCDB005DBB07 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		14542F571BDDFD84005DBB07 /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 		DA2C02AA3D24A7E2255A869A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +132,6 @@
 				14542F4A1BDDFCDB005DBB07 /* IntroScreenController.swift */,
 				14542F4B1BDDFCDB005DBB07 /* temp.png */,
 				14542F4C1BDDFCDB005DBB07 /* TodosTableViewController.swift */,
-				14542F4D1BDDFCDB005DBB07 /* uiboard.lua */,
 				14542F4E1BDDFCDB005DBB07 /* up.png */,
 				14542F1C1BDDF9F1005DBB07 /* Assets.xcassets */,
 				14542F211BDDF9F1005DBB07 /* Info.plist */,
@@ -277,7 +274,6 @@
 				14542F561BDDFCDB005DBB07 /* up.png in Resources */,
 				14542F531BDDFCDB005DBB07 /* temp.png in Resources */,
 				14542F461BDDFC20005DBB07 /* Default-568h@2x.png in Resources */,
-				14542F551BDDFCDB005DBB07 /* uiboard.lua in Resources */,
 				14542F1D1BDDF9F1005DBB07 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
