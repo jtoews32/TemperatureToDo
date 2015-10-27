@@ -187,7 +187,7 @@ class InputViewController : UIViewController, NSURLConnectionDelegate {
             }
         
             if failed  {
-                messageTextView?.text = "Data Service Failure! Try another location\nor\nFix your connection"
+                messageTextView?.text = "Data Service Failure!\n\nTry another location\nor\nFix your connection"
                 return
             }
             
