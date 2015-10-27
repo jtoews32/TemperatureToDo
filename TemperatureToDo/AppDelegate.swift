@@ -118,7 +118,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /*
         LuaManager.get().registerFunction(load_data, name: "load_data")
         
-        let filePath:String! = NSBundle.mainBundle().pathForResource("uiboard", ofType:"lua")
+        let filePath:String! = NSBundle.mainBundle().pathForResource("configuration", ofType:"lua")
         let content:String
         
         do {
